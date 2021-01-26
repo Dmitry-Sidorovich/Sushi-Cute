@@ -403,6 +403,9 @@ h1,h2,h3,h4,h5,h6 {
 /* /Subscription */
 
 /* Footer */
+.footer {
+    background-color: #777777;
+}
 /* /Footer */
 
 /* Button */
