@@ -465,6 +465,11 @@ h1,h2,h3,h4,h5,h6 {
     color: #fff;
     font-size: 23.7px;
     font-weight: 400;
+    transition: all .1s linear;
+}
+
+.footer__link:hover {
+    transform: translateY(-1px);
 }
 
 .footer__link + .footer__link {
