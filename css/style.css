@@ -405,6 +405,75 @@ h1,h2,h3,h4,h5,h6 {
 /* Footer */
 .footer {
     background-color: #777777;
+    padding-top: 235px;
+    padding-bottom: 295px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col {
+    max-width: 475px;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.footer__logo {
+
+}
+
+.footer__text {
+    font-size: 23.7px;
+    margin-bottom: 40px;   
+}
+
+.footer__social {
+
+}
+
+.social__link {
+
+}
+
+.social__link + .social__link {
+    margin-left: 15px;
+}
+
+.footer__items{
+    display: flex;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__item + .footer__item {
+    margin-left: 45px;
+}
+
+.footer-item-title {
+    font-weight: 700;
+    font-size: 31.6px;
+    margin-bottom: 30px;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 23.7px;
+    font-weight: 400;
+    transition: all .1s linear;
+}
+
+.footer__link:hover {
+    transform: translateY(-1px);
+}
+
+.footer__link + .footer__link {
+    margin-top: 25px;
 }
 /* /Footer */
 
