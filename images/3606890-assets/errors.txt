@@ -1,0 +1,2 @@
+[2021-1-25 22:57:43] layer "kawaii1.png": Duplicate path: kawaii1.png
+[2021-1-25 22:57:43] layer "oriental1.png": Duplicate path: oriental1.png
