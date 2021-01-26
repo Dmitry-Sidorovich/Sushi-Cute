@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6 {
     background-repeat: no-repeat;
     background-position: 0 -77px, 50% 22px, 35px 97%, 100% 101%;
     padding-top: 174px;
-    padding-bottom: 144px;
+    padding-bottom: 140px;
 }
 
 .oriental .container {
@@ -130,7 +130,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .oriental__image {
-    height: 100%;
+
 }
 
 .oriental__text {
@@ -270,7 +270,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .kawaii__text {
-    left: 0;
     margin-top: 48px;
     max-width: 580px;
     word-wrap:break-word;
@@ -295,7 +294,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .kawaii_image {
-    height: 100%;
+
 }
 /* /Kawaii */
 
@@ -443,7 +442,7 @@ h1,h2,h3,h4,h5,h6 {
 .footer__item {
     display: flex;
     flex-direction: column;
-
+    max-width: 33%;
 }
 
 .footer__item + .footer__item {
@@ -486,30 +485,118 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Responsive */
 
+    /* 1201px - 1400px */
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+    .oriental {
+        background-position: 0 -77px, 65% 22px, 35px 97%, 100% 101%;
+    }
+}
+
     /* 993px - 1200px */
 
 @media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
     #home {
         display: none;
+    }
+
+    .oriental {
+        padding-top: 120px;
+        background-position: 0 -77px, 95% 22px, 35px 97%, 100% 101%;
+        text-align: center;
+    }
+
+    .oriental .container {
+        display: block;
+    }
+
+    .oriental__text {
+        margin: 0 auto;
+    }
+
+    .special {
+        background-position: top left, top right, center;
+        padding-top: 115px;
+        padding-bottom: 90px;
+    }
+
+    .special__title {
+        margin-bottom: 55px;
+    }
+
+    .statistics {
+        background-position: 0 10px, 110% 0, bottom left, 99% 92%;
+    }
+
+    .statistics__text {
+        margin-bottom: 0;
+    }
+
+    .statistics__items {
+        margin-bottom: 20px;
+    }
+
+    .kawaii {
+        padding-top: 120px;
+    }
+
+    .kawaii .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .kawaii__text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .kawaii__title {
+        margin-bottom: 0;
+    }
+
+    .kawaii_image {
+        height: 156px;
+    }
+
+    .subscription {
+        background-position: bottom left, top right, center;
+    }
+
+    .footer__items {
+        margin-left: 20px;
     }
 }
 
     /* 769px - 992px */
 
 @media screen and (max-width: 992px) {
-
+    .container {
+        max-width: 960px;
+    }
 }
 
     /* 577px - 768px */
 
 @media screen and (max-width: 768px) {
-
+    .container {
+        max-width: 720px;
+    }
 }
 
     /* 320px - 576px */
 
 @media screen and (max-width: 576px) {
-
+    .container {
+        max-width: 540px;
+    }
 }
 
 /* /Responsive */
