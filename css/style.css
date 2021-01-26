@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 /* Toolbar */
@@ -44,7 +44,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .toolbar__logo {
     margin-left: 49px;
-    height: 100%;
     margin-top: 11px;
 }
 
@@ -127,13 +126,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .oriental .container {
     display: flex;
-    justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 164px;
+    justify-content: space-evenly;
 }
 
 .oriental__image {
-
+    height: 100%;
 }
 
 .oriental__text {
@@ -269,9 +266,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .kawaii .container {
     display: flex;
-    justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 130px;
+    justify-content: space-evenly;
 }
 
 .kawaii__text {
@@ -300,7 +295,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .kawaii_image {
-
+    height: 100%;
 }
 /* /Kawaii */
 
@@ -405,8 +400,8 @@ h1,h2,h3,h4,h5,h6 {
 /* Footer */
 .footer {
     background-color: #777777;
-    padding-top: 235px;
-    padding-bottom: 295px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .footer .container {
@@ -488,3 +483,33 @@ h1,h2,h3,h4,h5,h6 {
     transition: all .2s linear;
 }
 /* /Button */
+
+/* Responsive */
+
+    /* 993px - 1200px */
+
+@media screen and (max-width: 1200px) {
+    #home {
+        display: none;
+    }
+}
+
+    /* 769px - 992px */
+
+@media screen and (max-width: 992px) {
+
+}
+
+    /* 577px - 768px */
+
+@media screen and (max-width: 768px) {
+
+}
+
+    /* 320px - 576px */
+
+@media screen and (max-width: 576px) {
+
+}
+
+/* /Responsive */
